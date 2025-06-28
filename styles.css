@@ -1,0 +1,59 @@
+/* Reset margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #001633;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.logo {
+  max-width: 1000px;
+  height: auto;
+  margin: 5px;
+  padding: 0;
+  display: block;
+}
+
+.company-name {
+  font-family: 'Garamond', serif;
+  font-weight: 700;
+  font-size: 3rem;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+}
+
+.email {
+  font-family: 'Garamond', serif;
+  font-size: 1.45rem;
+  color: white; 
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  margin: 0;
+  padding: 0;
+}
+
+.email:hover {
+  color: #dddddd;
+  text-decoration: none;
+  cursor: pointer;
+}
+
